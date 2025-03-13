@@ -5,10 +5,9 @@
 - **[Features](#features)**
 - **[Instructions for running locally](#Instructions-for-running-locally)**
    - **[Initial steps](#initial-steps)**
-   - **[Method I (Using docker) [Recommended]](#method-i-using-docker-recommended)**
-   - **[Method II (Without docker)](#method-ii-without-docker)**
+   - **[Method to Run locally]**
 - **[Demo video](#demo-video)**
-- **[Screenshots](#screenshots)**
+- **[Presentation](#Presentation)**
 - **[Tech Stack](#tech-stack)**   
 - **[File Structure](#file-structure)**
 ## About
@@ -26,31 +25,13 @@ Shopping Assistant is a chatbot, which can assist consumers in deciding the righ
 1. Clone the repository by using the below command:
 
 ```
-git clone https://github.com/cjchirag7/shopping-assistant
+git clone https://github.com/sivaram66/AI-shopping-Assistant.git
 ```
 
-2. Download the 4 model files from [here](https://drive.google.com/drive/folders/1nu6HFg_POr-wF24rAJEH-ZRCn7wtIpIo?usp=sharing) and copy them all to the directory `shopping-assistant/services/api/`. Please note that if you download the `model_files` folder in .zip format, then you need to extract all the files out of it and then copy them to the above directory. 
+2. Download the 4 model files from [here](https://drive.google.com/drive/folders/1aynXIt5jfhvCKHu7mFm-uW1Vti9AyMUi?usp=drive_link) and copy them all to the directory `shopping-assistant/services/api/`. Please note that if you download the `model_files` folder in .zip format, then you need to extract all the files out of it and then copy them to the above directory. 
 
-## Method I (Using docker) [Recommended]
-### Pre-requisites
 
-1. Install `Docker` by looking up the
-   [docs](https://docs.docker.com/get-docker/)
-2. Install `Docker Compose` by looking up the
-   [docs](https://docs.docker.com/compose/install/)
-```
-Note: If you are using Windows, make sure Docker Desktop is running.
-```
-
-### Steps
-
-1. Make sure you are in the root of the project (i.e., `./shopping-assistant/`
-   folder).
-2. Run `docker-compose up` to spin up the containers. If you are using Linux or Mac, you may need to use `sudo` for this command to work. 
-3. `web-app` would then be available locally at http://localhost:3000 , `server`
-   at http://localhost:8000 and the `API documentation` would be available at http://localhost:8000/redoc
-
-## Method II (Without docker)
+## Method to Run locally
 ### Running the Server
 
 0. If you don't already have `pipenv` installed, install it using the following commands:
