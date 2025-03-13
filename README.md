@@ -9,7 +9,6 @@
 - **[Demo video](#demo-video)**
 - **[Presentation](#Presentation)**
 - **[Tech Stack](#tech-stack)**   
-- **[File Structure](#file-structure)**
 ## About
 Shopping Assistant is a chatbot, which can assist consumers in deciding the right product and bridge the gap between online and offline shopping. 
 
@@ -85,21 +84,8 @@ npm start
 4. The web app would start running at http://localhost:3000
 ## Demo video
 
-- Available at [https://www.youtube.com/watch?v=x_BFtcoaTks](https://www.youtube.com/watch?v=x_BFtcoaTks)
-## Screenshots
+- Available at [Demo Video](https://drive.google.com/file/d/19Wg7h_7DBJNYnuY_mlJjLXg2yzPrk44e/view?usp=sharing)
 
-![Home Page](./screenshots/ss-1.png)
-![Asking for printed shirts](./screenshots/ss-2.gif)
-![Asking for printed shirts in other words](./screenshots/ss-3.gif)
-![Asking for virtual trial](./screenshots/ss-4.png)
-![Virtual trial step 1](./screenshots/ss-5.png)
-![Virtual trial step 2](./screenshots/ss-6.png)
-![Selecting a dress](./screenshots/ss-7.png)
-![Virtual trial step 3](./screenshots/ss-8.png)
-![Another example of virtual trial](./screenshots/ss-9.png)
-![Asking for a mobile phone with specific properties](./screenshots/ss-10.gif)
-![Virtual trial of sunglasses](./screenshots/ss-11.png)
-![Summary of reviews](./screenshots/ss-12.png)
 ## Tech Stack
 
 ### Server
@@ -111,14 +97,4 @@ npm start
 
 - [React.js](https://reactjs.org/docs/getting-started.html)
 - [Jeeliz](https://github.com/jeeliz/jeelizGlassesVTOWidget)
-### Others
 
-- [Docker](https://www.docker.com/)
-
-## File structure
-
-- Presentation has been attached as `presentation.pdf`
-- Screenshots have been attached in `screenshots/`
-- Training files have been attached as `training-files/`
-- Server code has been attached in `services/api/`
-- Frontend code has been attached in `services/web-app/`
