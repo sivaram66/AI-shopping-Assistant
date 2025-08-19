@@ -6,8 +6,6 @@
 - **[Instructions for running locally](#Instructions-for-running-locally)**
    - **[Initial steps](#initial-steps)**
    - **[Method to Run locally](#Method-to-Run-locally)**
-- **[Demo video](#demo-video)**
-- **[Presentation](#Presentation)**
 - **[Tech Stack](#tech-stack)**   
 ## About
 Shopping Assistant is a chatbot, which can assist consumers in deciding the right product and bridge the gap between online and offline shopping. 
